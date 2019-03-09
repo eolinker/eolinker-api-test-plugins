@@ -1,16 +1,9 @@
 ## eoLinker API 测试增强插件（自动化测试插件）
-eoLinker提供了非常强大的在线API接口测试功能，在使用之前，请先安装 **eoLinker自动化测试增强插件** ，该插件为您提供了以下功能支持：
+插件需要配合API Studio（www.eolinker.com）网站使用，无法单独使用。
+
+该插件为您提供了以下功能支持：
 1. 线上网站、跨域、本地测试，支持通过远程网站访问本地localhost进行测试
 2. 支持文件类型的请求参数
-3. 支持更多请求协议
-4. 支持简易、高级自动化测试
-5. 支持全局变量等需要插件支持的测试
-
-插件获取地址：[请点击这里获取插件](https://www.eolinker.com/#/plug/introduce "请点击这里获取插件")
-
-目前插件支持Chrome以及Firefox浏览器，其中Chrome插件需要翻墙下载，或者安装由我们提供的离线安装包，Firefox则无需翻墙。
-
-**注意**：eoLinker API 测试增强插件需要配合[eoLinker线上网站](https://www.eolinker.com "eoLinker线上网站")或者开源版产品使用。
 
 ---
 
@@ -28,21 +21,13 @@ eoLinker提供了非常强大的在线API接口测试功能，在使用之前，
 
 ---
 
-#### 检测
-
-在需要通过插件进行测试的功能中，会有相应的提示是否已经正确安装插件，如果正常安装插件，则会显示类似的界面：
-
-![](http://data.eolinker.com/course/hrDhmQW598c9b26f75684b14b09ce9f22898b6ffcf9481b)
-
-若看到黄色提示框，则表示插件尚未正确安装或者版本过旧，需要安装或者更新：
-
-![](http://data.eolinker.com/course/TKg88gsd74def9adc4f3accddc736b729323dbcece971ff)
-
----
 
 #### 更新日志
-**V5.0.1 (2019-3-3)**
+
+**V5.0.2 (2019-3-7)**
 * 修复自动化测试请求参数为JSON,使用REST参数卡住测试BUG
+
+**V5.0.1 (2019-3-3)**
 * 修复自动化测试请求参数为JSON，绑定请求参数是子参数时，关联失败BUG
 * 修复自动化测试单条测试记录没有发送addTestLog请求
 * 修复前置用例UI模式没有caseName
