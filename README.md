@@ -1,6 +1,6 @@
-## EOLINKER API Studio 测试增强插件（跨域插件）
-插件需要配合API Studio（www.eolinker.com）
-网站使用，无法单独使用。
+## EOLINKER API 测试增强插件（跨域插件）
+插件需要配合Eolinker SaaS产品使用，无法单独使用。
+www.eolinker.com
 
 该插件为您提供了以下功能支持：
 1. 线上网站、跨域、本地测试，支持通过远程网站访问本地localhost进行测试
